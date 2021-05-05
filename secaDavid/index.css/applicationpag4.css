@@ -1,0 +1,72 @@
+.menu {
+       
+
+}
+.menu ul{
+    margin: 0;
+    background: rgb(255, 255, 255);
+    list-style: none;
+
+}
+.menu ul li{
+    display: inline;
+
+
+}
+.menu ul li a{
+    padding: 15px 10px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    color: rgb(255, 0, 0);
+    
+}
+
+body {
+    width: 90%;
+    max-width: 700px;
+    margin:auto;
+    background: url(../fotos/capa.png) center;
+    font-family: sans-serif;
+    line-height: 2;
+    color: rgb(3, 3, 3);
+}
+
+.texto-principal{
+    background: center rgb(255, 255, 255);
+    margin: 50px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+
+
+.botao-voltar{
+    float: center;
+    text-align:center;
+    width: 100px;
+    height: 40px;
+    line-height: 35px;
+    padding: 10px 5px;
+    margin-left: 42%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration: none;
+    
+   }
+
+.rede-social{
+    width: 200px;
+    height: 40px;
+    line-height: 35px;
+    padding: 10px 5px;
+    margin-left: 35%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    list-style: none;
+    
+   }

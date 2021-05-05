@@ -1,0 +1,116 @@
+.menu {
+       
+
+}
+.menu ul{
+    margin: 0;
+    background: rgb(255, 255, 255);
+    list-style: none;
+
+}
+.menu ul li{
+    display: inline;
+
+
+}
+.menu ul li a{
+    padding: 15px 10px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    color: rgb(253, 0, 0);
+    
+}
+body {
+    width: 95%;
+    max-width: 800px;
+    margin:auto;
+    background: rgb(0, 0, 0) center;
+
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+}
+.texto-principal{
+    background: center rgb(255, 255, 255);
+    margin: 50px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.texto-dois{
+    background: center rgb(255, 255, 255);
+    margin: 50px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.texto-tres{
+    background: center rgb(255, 255, 255);
+    margin: 50px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.botao-seguir{
+    float: center;
+    text-align:center;
+    width: 100px;
+    height: 40px;
+    line-height: 45px;
+    padding: 10px 5px;
+    margin-left: 45%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+   }
+   .botao-voltar{
+    float: center;
+    text-align:center;
+    width: 100px;
+    height: 40px;
+    line-height: 35px;
+    padding: 10px 5px;
+    margin-left: 45%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;    
+   }
+
+.tabela{
+
+    color: white;
+    margin-left: 8%;
+}
+
+
+
+   <style>
+   table{
+       border-collapse: collapse;
+       border: 3px solid rgb(255, 252, 252);
+       width: 75%;
+   }
+   tbody{
+       font-size: 90%;
+       font-style: italic;
+       letter-spacing: 1px;
+   }
+   tfoot{
+       font-weight: bold;
+       font-size: 75%;
+   }
+   thead{
+       color:rgb(255, 255, 255);
+   }
+   td{
+       text-align: center;
+       border: 1px solid rgb(255, 255, 255);
+   }
+   </style>
